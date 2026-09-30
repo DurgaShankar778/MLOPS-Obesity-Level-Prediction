@@ -1,0 +1,48 @@
+{
+    "dataset_name": "Obesity Level Estimation (Eating Habits and Physical Condition)",
+    "problem_type": "multiclass classification",
+    "target": "NObeyesdad",
+    "class_names": [
+        "Insufficient_Weight",
+        "Normal_Weight",
+        "Overweight_Level_I",
+        "Overweight_Level_II",
+        "Obesity_Type_I",
+        "Obesity_Type_II",
+        "Obesity_Type_III"
+    ],
+    "rows_after_cleaning": 2087,
+    "duplicates_removed": 24,
+    "engineered_features": [
+        "BMI"
+    ],
+    "train_shape": [
+        1669,
+        24
+    ],
+    "test_shape": [
+        418,
+        24
+    ],
+    "numerical_features": [
+        "Age",
+        "Height",
+        "Weight",
+        "FCVC",
+        "NCP",
+        "CH2O",
+        "FAF",
+        "TUE",
+        "BMI"
+    ],
+    "categorical_features": [
+        "Gender",
+        "CALC",
+        "FAVC",
+        "SCC",
+        "SMOKE",
+        "family_history_with_overweight",
+        "CAEC",
+        "MTRANS"
+    ]
+}
